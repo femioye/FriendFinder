@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Questions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Survey Questions</h2><br>
+        <h3><strong>About You</strong></h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="username" class="form-control" required="">
+        <h4>Link to Your Photo (Required)</h4>
+        <input type="text" id="image" class="form-control" required=""><hr>
+        <h3> <strong>Question 1</strong> </h3>
+        <h4>Have you ever tried to break a world record?</h4>
+
+        <select id="question1">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+
+        <h3><strong>Question 2</strong></h3>
+        <h4>Do you love Javascript as much as I do?</h4>
+
+        <select id="question2">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3><strong>Question 3</strong></h3>
+        <h4>The longest bridge in Europe is the Vasco da Gama Bridge.</h4>
+
+        <select id="question3">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3><strong>Question 4</strong></h3>
+        <h4>Programmers have a tendency to report their problems incompletely.</h4>
+
+        <select id="question4">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3><strong>Question 5</strong></h3>
+        <h4>Programmers spend approximately 30% of the time surfing the source code.</h4>
+
+        <select id="question5">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3><strong>Question 6</strong></h3>
+        <h4>The first computer programmer was a woman.</h4>
+
+        <select id="question6">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3><strong>Question 7</strong></h3>
+        <h4>The first “pre-computers” were powered by steam.</h4>
+
+        <select id="question7">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3><strong>Question 8</strong></h3>
+        <h4>Developers seek other forms of help before talking to coworkers.</h4>
+
+        <select id="question8">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3><strong>Question 9</strong></h3>
+        <h4>Developers slow to ask for help when facing problems.</h4>
+
+        <select id="question9">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+
+        <h3>
+            <strong>Question 10</strong>
+        </h3>
+        <h4>Like other intellectual activities, the task of programming and how people learn to program computers is well studied.</h4>
+
+        <select id="question10">
+            <option value="">Choose an option</option>
+            <option value="1">1 (strongly disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (strongly agree)</option>
+        </select>
+        <hr>
+        <div>
+            <a href="">
+                <button class="btn btn-lg btn-primary" id="submit">Submit</button>
+            </a>
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Friends List</a> |
+                    <a href="https://github.com/femioye/FriendFinder">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    
+    <div id="result-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Best Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="match-name"></p>
+                    <img id="match-image" src="" alt>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            let userInput = {
+                friendName: $("#username").val(),
+                photo: $("#image").val(),
+                scores: [
+                    $("#question1").val(),
+                    $("#question2").val(),
+                    $("#question3").val(),
+                    $("#question4").val(),
+                    $("#question5").val(),
+                    $("#question6").val(),
+                    $("#question7").val(),
+                    $("#question8").val(),
+                    $("#question9").val(),
+                    $("#question10").val()
+                ]
+            };
+
+            $.post("/api/friend", userInput, function (data) {
+                friends.push(userInput);
+            });
+
+          
+            $.get("/api/friend", function (req, res) {
+
+                $("#result-modal").modal("toggle");
+                $("#match-name").text(req[0].friendName);
+                $("#match-image").attr("src", req[0].photo);
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
